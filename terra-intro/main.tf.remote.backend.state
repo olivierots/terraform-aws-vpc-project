@@ -1,0 +1,10 @@
+resource "aws_s3_bucket" "s3backend" {
+  bucket = "oo-s3-backend-udemy-course"
+
+  versioning = {
+    enabled = true
+  }
+
+  force_destroy = true
+}
+
