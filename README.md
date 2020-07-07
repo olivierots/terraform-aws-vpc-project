@@ -16,8 +16,7 @@
 * 2 security groups (allow-ssh) will be created - one the for public ec2 & the other one for the private ec2
 * the private ec2 is located in the private subnet and has a private route table linked the a NAT gateway inside  
   the public subnet which then route the traffic to the public route table for outbound traffic 
-  
-```
+  ```
 ## Project 2 architecture & overview ##
 ![alt text](https://github.com/olivierots/terraform-aws-vpc-project/blob/master/loadalancing_autoScaling_project/LoadBalancer%20AutoScaling%20Project%20Architecture.jpeg)
 ```
