@@ -1,4 +1,4 @@
-# terraform-aws-vpc-ec2-alb-asg-highly-scalable-network-project #]
+# terraform-aws-vpc-ec2-alb-asg-highly-scalable-network-project-micro-service #
 
 ## Project 1 architecture & overview ##
 ![alt text](https://github.com/olivierots/terraform-aws-vpc-project/blob/master/vpc_ec2_project/VPC%20EC2%20Project%20Architecture.jpg)
@@ -18,7 +18,7 @@
   the public subnet which then route the traffic to the public route table for outbound traffic 
   
 ```
-## Project 2 ##
+## Project 2 architecture & overview ##
 ![alt text](https://github.com/olivierots/terraform-aws-vpc-project/blob/master/loadalancing_autoScaling_project/LoadBalancer%20AutoScaling%20Project%20Architecture.jpeg)
 ```
  * in this project application load balancers & two availability zones were introduced 
