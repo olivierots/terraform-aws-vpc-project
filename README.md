@@ -1,5 +1,8 @@
 # terraform-aws-vpc-ec2-alb-asg-highly-scalable-network--micro-service-project #
 
+Throughout my terraform learning journey, i've provisioned & deployed so many different aws resources as per the code inside this repo,
+however the below projects are probably the highlights and most complex ones.
+
 ## Project 1 architecture & overview ##
 ![alt text](https://github.com/olivierots/terraform-aws-vpc-project/blob/master/vpc_ec2_project/VPC%20EC2%20Project%20Architecture.jpg)
 ```
@@ -33,7 +36,7 @@
 *  the public ec2 will be provisionned with an apache web server, then echo their hostname using aws user-data
 ```
 
-# terraform notes & stuffs i've learnt throughout my terraform learning journey #
+terraform notes & stuffs i've learnt throughout my terraform learning journey
 ```
 1. steps to install terraform on Linux ==> link to the downloads for different Terraform Versions
    https://releases.hashicorp.com/terraform/ 
