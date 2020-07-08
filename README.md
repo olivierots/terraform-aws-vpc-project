@@ -1,7 +1,7 @@
 # terraform-aws-vpc-ec2-alb-asg-highly-scalable-network--micro-service-project #
 
 Throughout my terraform learning journey, i've provisioned & deployed so many different aws resources as per the code inside this repo,
-however the below projects are probably the highlights and most complex ones.
+however the below projects are probably the highlight and most complex ones.
 
 ## Project 1 architecture & overview ##
 ![alt text](https://github.com/olivierots/terraform-aws-vpc-project/blob/master/vpc_ec2_project/VPC%20EC2%20Project%20Architecture.jpg)
