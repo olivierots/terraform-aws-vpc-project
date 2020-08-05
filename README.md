@@ -29,9 +29,9 @@ however the below projects are probably the highlight and most complex ones.
  * 4 subnets, two in each regions, one is public & the other one is private for front end & back end purposes
  * for redundancy puprpses, if one availability zone goes down, the users can still acess the app through a 
    different availability zone 
-*  the application load balancers are placed in front of the public ec2 to distrubulte traffic evenly and scale 
+*  the application load balancers are placed in front of the public ec2 to distribute traffic evenly and scale 
    accordingly in case of a massive surge in load   
-*  the loab balancers willa also perform healthchecks constantly 
+*  the loab balancers will also perform healthchecks constantly 
 *  2 security groups will be created - one the for ssh & the other one for http
 *  the public ec2 will be provisionned with an apache web server, then echo their hostname using aws user-data
 ```
@@ -47,7 +47,7 @@ terraform notes & stuffs i've learnt throughout my terraform learning journey
                                          so you can execute terraform anywhere on your machine 
       
 2. what is terraform ?
-   It's used for Infrastructure as code, its a multiplatform tool used to deploy an infrstructure acrros many cloud
+   It's used for Infrastructure as code, its a multi-platform tool used to deploy an infrastructure accros many cloud
    providers such as aws, GCP & Azure. instead of going into the aws portal on aws and clicking different things to
    create a network we can simply write a code to manage, provision the tech stack for your application.
    Dev & Ops teams manage & provision the tech stack for an app through software, rather than using a manual process to
