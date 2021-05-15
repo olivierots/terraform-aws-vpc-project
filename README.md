@@ -4,7 +4,7 @@ Throughout my terraform learning journey, i've provisioned & deployed so many di
 however the below projects are probably the highlight and most complex ones.
 
 ## Project 1 architecture & overview ##
-![alt text](https://github.com/olivierots/terraform-aws-vpc-project/blob/master/vpc_ec2_project/VPC%20EC2%20Project%20Architecture.jpg)
+![alt text](https://github.com/olivierots/VPC-Architecture-Using-Terraform/blob/master/vpc-design/VPC%20EC2%20Project%20Architecture.jpg)
 ```
 * we have a user trying to connect through ssh to a public ec2 using an IP address 
 * I have a VPC located in the us-east-1 region with its own IP range 
@@ -21,7 +21,7 @@ however the below projects are probably the highlight and most complex ones.
   the public subnet which then route the traffic to the public route table for outbound traffic 
   ```
 ## Project 2 architecture & overview ##
-![alt text](https://github.com/olivierots/terraform-aws-vpc-project/blob/master/loadalancing_autoScaling_project/LoadBalancer%20AutoScaling%20Project%20Architecture.jpeg)
+![alt text](https://github.com/olivierots/VPC-Architecture-Using-Terraform/blob/master/loadbalancing_autoscaling_group_design_project/LoadBalancer%20AutoScaling%20Project%20Architecture.jpeg)
 ```
  * in this project application load balancers & two availability zones were introduced 
  * The user will connect via both ssh & http 
